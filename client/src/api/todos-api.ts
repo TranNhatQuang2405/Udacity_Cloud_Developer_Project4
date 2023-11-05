@@ -33,7 +33,7 @@ export async function getTodos(idToken: string): Promise<TodoItem[]> {
     'GET',
     null
   );
-  return response.data.todoList;
+  return response.data.items;
 }
 
 export async function getTodo(idToken: string, todoId: string): Promise<TodoItem> {

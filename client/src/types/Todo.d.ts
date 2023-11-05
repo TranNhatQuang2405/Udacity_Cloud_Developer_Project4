@@ -9,7 +9,7 @@ export interface TodoItem {
 }
 
 export interface GetTodosResp {
-  todoList: TodoItem[];
+  items: TodoItem[];
 }
 
 export interface GetTodoResp {

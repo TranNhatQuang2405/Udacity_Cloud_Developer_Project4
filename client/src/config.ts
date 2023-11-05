@@ -1,5 +1,5 @@
 const apiId = '5n2b6zboib';
-export const apiEndpoint = `https://${apiId}.execute-api.eu-central-1.amazonaws.com/dev`;
+export const apiEndpoint = `https://${apiId}.execute-api.us-east-1.amazonaws.com/dev`;
 
 export const authConfig = {
   // Auth0 settings

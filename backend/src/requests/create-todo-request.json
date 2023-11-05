@@ -5,7 +5,7 @@
   "properties": {
     "name": {
       "type": "string",
-      "pattern": "^[a-zA-Z0-9]+$",
+      "pattern": "^[a-zA-Z0-9 ]+$",
       "minLength": 5,
       "maxLength": 20
     },
@@ -17,6 +17,6 @@
       "type": "string"
     }
   },
-  "required": ["name", "dueDate", "attachmentUrl"],
+  "required": ["name", "dueDate"],
   "additionalProperties": false
 }
